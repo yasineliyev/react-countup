@@ -18,7 +18,7 @@ function Counter() {
         <div className="box box1">
           {<CountUp end={140} duration={2} delay={3} />}
         </div>
-        <div className="box box2" ref={countUpRef}></div>
+        <div className="box box2" ref={countUpRef}>0</div>
         <div className="box box3">
           {<CountUp end={600} duration={1} prefix="&#8380;" suffix=" AZN" />}
         </div>
