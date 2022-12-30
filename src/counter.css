@@ -1,0 +1,45 @@
+body {
+  background: #232526; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #414345,
+    #232526
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #414345,
+    #232526
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.boxes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  width: 100%;
+}
+
+.box {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  color: white;
+  font-size: 60px;
+  line-height: 300px;
+  text-align: center;
+  margin-right: 20px;
+  box-shadow: 0 5px 30px rgba(255, 255, 255, 0.3);
+}
+
+.box1 {
+  background-color: rgb(119, 19, 19);
+}
+
+.box2 {
+  background-color: rgb(54, 39, 129);
+}
+
+.box3 {
+  background-color: rgb(162, 8, 123);
+}
